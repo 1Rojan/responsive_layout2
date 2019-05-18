@@ -1,0 +1,19 @@
+html,body{
+	margin: 0;
+	top: 0;
+}
+
+.content{
+	background: orange;
+	display: table;
+}
+
+.left{
+	width: 50%;
+	float: left;
+	padding: 80px;
+}
+.right{
+	overflow: auto;
+}
+
