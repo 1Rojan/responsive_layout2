@@ -3,17 +3,48 @@ html,body{
 	top: 0;
 }
 
+
 .content{
-	background: orange;
+	background:#f06f00;
 	display: table;
+	box-sizing: border-box;
+	text-align: center;
+	height:637px;
 }
 
 .left{
+	box-sizing: border-box;
 	width: 50%;
 	float: left;
-	padding: 80px;
+	padding: 180px 30px 200px 200px;
+	color: white;
+	line-height: 40px;
+	/* display: flex;
+	flex-wrap: wrap; */
+}
+
+.left p{
+	line-height: 30px;
+}
+
+.left a{
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 50px 50px 50px 50px;
+	background:white;
 }
 .right{
 	overflow: auto;
+	padding:80px 0px;
 }
 
+
+
+.info{
+	border:2px solid black;
+	border-radius: 50px 0px 0px 50px;
+	height:450px;
+	/* position:absolute; */
+
+}
